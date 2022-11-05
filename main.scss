@@ -1,0 +1,42 @@
+@import url('https://fonts.google.com/specimen/Outfit:400,700');
+
+body {
+    font-family: 'Outfit', sans-serif;
+}
+
+.sito-container {
+    background-color: hsl(212, 45%, 89%);
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sito-card {
+    padding: 1rem;
+    border-radius:8px;
+    background-color: hsl(0, 0%, 100%);
+    width: 375px;
+
+    img {
+        border-radius: 8px;
+        max-width: 100%;
+        max-height: 100%;
+    }
+}
+
+.sito-card-content {
+    padding: 1rem;
+    text-align: center;
+}
+
+.sito-title {
+    font-weight: bold;
+    font-size: x-large;
+    color: hsl(218, 44%, 22%);
+    margin-bottom: 1rem;
+}
+
+.sito-subtitle {
+    color: hsl(220, 15%, 55%);
+}
